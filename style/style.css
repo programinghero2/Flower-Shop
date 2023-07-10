@@ -140,6 +140,7 @@
     margin-top: 24px;
     color: #fff;
     margin-left:130px;
+    font-size: 18px;
 }
 /* instagram style */
 #instagram{
@@ -173,4 +174,77 @@
 }
 .insta-img img{
     width: 100%;
+}
+/* latest deals style */
+#latest-deals{
+    width: 80vw;
+    height: 300px;
+    background-color: red;
+    margin: 0 auto;
+    background-image: url(../Flower-Asset/Rectangle\ 9.png);
+}
+#latest-deals-title{
+    text-align: center;
+    padding-top: 70px;
+}
+#latest-deals-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+#latest-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+#latest-input input{
+    width: 500px;
+    padding: 13px 10px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    border-radius: 8px;
+    background: #FFF;
+}
+#latest-input button {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+#latest-input button a{
+    padding: 18px 30px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+}
+/* footer style */
+#footer{
+    background-color: #111010;
+    height: 450px;
+    margin-top: 130px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-text{
+    width: 630px;
+    text-align: center;
+}
+#footer-text span{
+    color: #E55473;
+}
+#footer-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+#footer-text p{
+    color:rgb(179 163 163 / 90%);
+    margin-bottom: 24px;
+}
+#footer-text small{
+    color:#463f3f;
 }
