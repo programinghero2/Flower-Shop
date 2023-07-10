@@ -32,6 +32,8 @@
     border: none;
     margin-top: 32px;
     cursor: pointer;
+    font-size: 18px;
+
 }
 #header-img{
     width: 30vw;
@@ -206,6 +208,7 @@
     color: rgba(39, 39, 39, 0.60);
     border-radius: 8px;
     background: #FFF;
+    font-size: 16px;
 }
 #latest-input button {
     border-radius: 8px;
